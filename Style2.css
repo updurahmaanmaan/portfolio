@@ -1,0 +1,138 @@
+body {
+  height: fit-content;
+  width: fit;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial;
+  color: rgb(96, 96, 96);
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header1 {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header2 {
+  margin-right: 0px;
+}
+.Name {
+  margin-left: 20px;
+  margin-right: 80px;
+  color: #7d2ae8;
+}
+.Span1 {
+  color: rgb(39, 39, 39);
+}
+.Home {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.About {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.Portfolio {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.Blog {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.Contact {
+  cursor: pointer;
+}
+.Contact-button {
+  background-color: #7d2ae8;
+  color: #fff;
+  font-family: Arial;
+  border: 1px solid #7d2ae8;
+  padding: 8px 25px;
+  border-radius: 8px;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: opacity ease 0.15s;
+}
+.Contact-button:hover {
+  background-color: white;
+  color: #7d2ae8;
+  border: 2px solid #7d2ae8;
+}
+.Contact-button:active {
+  opacity: 0.3;
+}
+.Des-Container {
+  color: black;
+  margin-left: 30px;
+  width: 250px;
+}
+.Des-Container h2 h4 {
+  display: block;
+}
+.Des-Container h2 span {
+  color: #7d2ae8;
+}
+.Des-Container p {
+  font-size: 14px;
+  display: block;
+}
+.Buttons-Container {
+  width: 300px;
+  margin-top: 40px;
+  display: block;
+}
+.Button1 {
+  background-color: #7d2ae8;
+  color: #fff;
+  font-family: Arial;
+  border: 1px solid #7d2ae8;
+  padding: 8px 25px;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color ease 0.15s opacity ease 0.15s;
+}
+.Button1:hover {
+  background-color: transparent;
+  color: #7d2ae8;
+}
+.Button1:active {
+  opacity: 0.5;
+}
+.Button2 {
+  background-color: transparent;
+  color: #7d2ae8;
+  font-family: Arial;
+  border: 2px solid #7d2ae8;
+  padding: 8px 25px;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: opacity ease 0.15s background-color ease 0.15;
+}
+.Button2:hover {
+  background-color: #7d2ae8;
+  color: white;
+}
+.Button2:active {
+  opacity: 0.5;
+}
+.Images-Container {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.Images-Container img {
+  background-color: rgb(219, 219, 219);
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 23px;
+}
